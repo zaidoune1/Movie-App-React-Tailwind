@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #fff;
+    }
+}
+    @layer components {
+        .navbar {
+        background-color: theme('colors.black');
+        color:theme('colors.white') ;
+        padding: theme('padding.5');
+        }
+
+        .toZero {
+            padding: 0;
+            margin: 0;
+        }
+    }
